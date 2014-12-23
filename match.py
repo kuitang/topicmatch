@@ -79,6 +79,18 @@ if __name__ == "__main__":
     print("Matching completed. Max weight = %g and %d unmatched." % (
         compute_weight(G, match), len(unmatched)))
 
+    # TODO: Handle the case with more than one unmatched.
+    assert len(unmatched) <= 1
+
+    # Greedily select the max-weight neighbor
+    neighbor_weight = lambda v: G[v]['weight']
+
+    for u in unmatched:
+        max_weight_neighbor = max(G.neighbors(u),
+                                  key=lambda v: G[u][v]['weight'])
+        # Add the match
+        match[u] = max_weight_neighbor
+
     # Recover the students from the numerical matchings
     st = d['students']
 
@@ -112,9 +124,9 @@ if __name__ == "__main__":
 
             print(d['raw_texts'][j], file=f)
 
-        print("\n\n", file=f)
-        print("Unmatched: ", file=f)
-        for i, u in enumerate(sorted(unmatched)):
-            print("\n[Unmatched %d] ====== [ %s ] ======\n" % (i, st[u]), file=f)
-            print(d['raw_texts'][u], file=f)
-
+#        print("\n\n", file=f)
+#        print("Unmatched: ", file=f)
+#        for i, u in enumerate(sorted(unmatched)):
+#            print("\n[Unmatched %d] ====== [ %s ] ======\n" % (i, st[u]), file=f)
+#            print(d['raw_texts'][u], file=f)
+#

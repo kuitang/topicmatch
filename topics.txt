@@ -1,0 +1,16 @@
+INFO:gensim.models.ldamodel:topic #0 (0.100): 0.023*model + 0.016*use + 0.016*row + 0.016*loan + 0.015*data + 0.014*text + 0.012*tabl + 0.012*default + 0.010*varianc + 0.010*nois
+INFO:gensim.models.ldamodel:topic #1 (0.100): 0.035*lasso + 0.033*estim + 0.030*graphic + 0.025*correl + 0.022*problem + 0.021*matrix + 0.020*latent + 0.017*algorithm + 0.017*number + 0.017*portfolio
+INFO:gensim.models.ldamodel:topic #2 (0.100): 0.001*model + 0.001*infer + 0.001*hmm + 0.001*action + 0.001*build + 0.001*tree-structur + 0.001*markov + 0.001*exogen + 0.001*hidden + 0.001*examin
+INFO:gensim.models.ldamodel:topic #3 (0.100): 0.022*stochast + 0.022*general + 0.022*model + 0.018*latent + 0.018*data + 0.018*choic + 0.018*subject + 0.018*item + 0.018*mmpi + 0.013*structur
+INFO:gensim.models.ldamodel:topic #4 (0.100): 0.050*word + 0.042*model + 0.025*dataset + 0.025*region + 0.025*imag + 0.025*categori + 0.017*data + 0.017*use + 0.017*correspond + 0.017*label
+INFO:gensim.models.ldamodel:topic #5 (0.100): 0.062*topic + 0.040*model + 0.019*articl + 0.019*identifi + 0.016*method + 0.016*onlin + 0.016*text + 0.013*document + 0.013*distribut + 0.013*dynam
+INFO:gensim.models.ldamodel:topic #6 (0.100): 0.037*gene + 0.032*health + 0.027*brain + 0.021*function + 0.021*use + 0.021*human + 0.021*child + 0.021*sequenc + 0.016*data + 0.016*develop
+INFO:gensim.models.ldamodel:topic #7 (0.100): 0.043*gene + 0.023*haplotyp + 0.020*individu + 0.018*express + 0.017*use + 0.016*model + 0.016*infer + 0.016*regulatori + 0.016*network + 0.012*data
+INFO:gensim.models.ldamodel:topic #8 (0.100): 0.048*network + 0.040*wi + 0.024*structur + 0.024*use + 0.024*project + 0.016*power + 0.016*studi + 0.016*generat + 0.016*provid + 0.016*synthet
+INFO:gensim.models.ldamodel:topic #9 (0.100): 0.028*market + 0.028*model + 0.028*sale + 0.028*spend + 0.028*game + 0.023*curv + 0.017*use + 0.017*effort + 0.017*video + 0.011*effect
+INFO:gensim.models.ldamodel:topic #10 (0.100): 0.027*model + 0.022*price + 0.020*label + 0.016*data + 0.015*learn + 0.013*revenu + 0.013*set + 0.011*salesperson + 0.011*margin + 0.011*noisi
+INFO:gensim.models.ldamodel:topic #11 (0.100): 0.029*model + 0.023*topic + 0.020*data + 0.017*set + 0.012*infer + 0.012*method + 0.012*biolog + 0.012*latent + 0.012*gene + 0.011*use
+INFO:gensim.models.ldamodel:topic #12 (0.100): 0.030*model + 0.030*consum + 0.030*program + 0.030*reward + 0.020*imag + 0.015*approach + 0.015*find + 0.015*point + 0.015*use + 0.015*promot
+INFO:gensim.models.ldamodel:topic #13 (0.100): 0.040*model + 0.022*data + 0.021*use + 0.021*lda + 0.018*movi + 0.018*dirichlet + 0.017*alloc + 0.016*dataset + 0.016*latent + 0.014*drug
+INFO:gensim.models.ldamodel:topic #14 (0.100): 0.051*model + 0.032*compon + 0.026*structur + 0.026*markov + 0.019*ncrp + 0.019*transit + 0.013*result + 0.013*perform + 0.013*sampl + 0.013*random
+INFO:gensim.models.ldamodel:-6.893 per-word bound, 118.8 perplexity estimate based on a held-out corpus of 37 documents with 3136 words
